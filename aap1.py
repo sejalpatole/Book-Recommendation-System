@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-books = pickle.load(open("books.pkl", "rb"))
-similarity = pickle.load(open("similarity.pkl", "rb"))
+books = pickle.load(open("models/books.pkl", "rb"))
+similarity = pickle.load(open("models/similarity.pkl", "rb"))
 
 st.set_page_config(
     page_title="Book Recommendation System",

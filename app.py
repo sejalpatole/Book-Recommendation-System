@@ -13,8 +13,8 @@ st.set_page_config(
 
 # ---------------- LOAD DATA ---------------- #
 
-books = pickle.load(open("books.pkl", "rb"))
-similarity = pickle.load(open("similarity.pkl", "rb"))
+books = pickle.load(open("models/books.pkl", "rb"))
+similarity = pickle.load(open("models/similarity.pkl", "rb"))
 
 # ---------------- CUSTOM CSS ---------------- #
 
