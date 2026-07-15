@@ -128,7 +128,7 @@ streamlit run app.py
 
 **Sejal Patole**
 
-Diploma in Artificial Intelligence & Machine Learning
+Diploma in Artificial Intelligence and Machine Learning
 
 ---
 
